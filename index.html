@@ -6,37 +6,43 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Information Form</title>
   <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
   <script src="js/jquery.js"></script>
   <script src="js/main.js"></script>
 </head>
 <body>
   <form class="infoForm" onSubmit="returnValidateForm()">
-    <ul>
+    <ul><br />
        <li class="title">Who Are You?</li>
         <li class="fields">
           <label>*First Name:</label><br />
-          <input type="text" id="first" name="firstname" placeholder="Enter your firstname.." /><br/>
+          <input type="text" id="first" name="firstname" placeholder="Enter your firstname.." /><br/><br />
           <label>*Last Name:</label><br />
-          <input type="text" id="last" name="lastname" placeholder="Enter your lastname.." /><br />
+          <input type="text" id="last" name="lastname" placeholder="Enter your lastname.." /><br /><br />
           <label>*Email:</label><br />
           <input type="text" id="email" name="email" placeholder="Enter your email id.." />
         </li>
        <li class="title">Where Are You?</li>
+       <li class="fields">
          <label>*City:</label><br />
-         <input type="text" id="city" name="city" placeholder="Your city.." /><br />
+         <input type="text" id="city" name="city" placeholder="Your city.." /><br /><br />
          <label>*State:</label><br />
-         <input type="text" id="state" name="state" placeholder="Your state.." /><br />
+         <input type="text" id="state" name="state" placeholder="Your state.." /><br /><br />
          <label>*Country:</label><br />
          <input type="text" id="country" name="country" placeholder="Your country.." /><br />
+       </li>
+
        <li class="title">What Do You Do?</li>
+       <li class="fields">
           <label>*Occupation:</label><br />
-          <input type="text" id="job" name="job"/><br />
+          <input type="text" id="job" name="job"/><br /><br />
           <label>*Company:</label><br />
-          <input type="text" id="company" name="company"/><br />
+          <input type="text" id="company" name="company"/><br /><br />
           <label>*Company Address:</label><br />
           <input type="text" id="address" name="address"/><br />
+       </li>
     </ul>
-    <button>Submit Form</button>
+    <button id="button">Submit Form</button>
   </form>
 </body>
 </html>

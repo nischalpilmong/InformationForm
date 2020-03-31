@@ -1,0 +1,38 @@
+body{
+  width: 500px;
+  margin: auto;
+  text-align: center;
+}
+li{
+  list-style: none;
+}
+.title{
+  font-family: "Montserrat", sans-serif;
+  margin-right: 40px;
+  background: gray;
+  font-weight: bold;
+  font-size: 1.5em;
+  line-height: 2em;
+  border-bottom: 1px solid #c5c5c5;
+  color: #fff;
+}
+.fields{
+  margin: 0;
+  padding: 1em 0;
+}
+input{
+  margin-top: 5px;
+  border-radius: 2px;
+}
+#button{
+   margin-left: 30px;
+}
+.infoForm{
+  margin: 5px;
+  padding-bottom: 20px;
+  background-color: #c5c5c5;
+  position: relative;
+}
+label{
+  color: blue;
+}
